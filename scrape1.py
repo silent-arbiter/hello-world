@@ -58,6 +58,14 @@ print "Finished"
 ##print strx.replace("Hello", "Goodbye")
 
 
+##url = "https://parahumans.wordpress.com/table-of-contents/"
+##response = requests.get(url)
+##html = response.content
+##soup = BeautifulSoup(html, "html5lib")
+##for divtag in soup.find_all('div', {'class': 'entry-content'}):
+##    for atag in divtag.find_all('a', href=True):
+##        print atag['href']
+
 ##url = "https://parahumans.wordpress.com/2011/06/11/1-1/"
 ##response = requests.get(url)
 ##html = response.content
